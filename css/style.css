@@ -1,0 +1,111 @@
+* {
+  transition: 0.5s;
+}
+
+header {
+  text-align: center;
+  position: relative;
+}
+
+html, body {
+  margin: 0;
+  padding: 50px;
+  background-color: silver;
+}
+
+.container {
+  padding: 20px;
+  background-color: white;
+}
+.container .guide {
+  text-align: center;
+  cursor: pointer;
+}
+.container a {
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  font-weight: normal;
+  margin-right: 30px;
+}
+.container .scout {
+  color: red;
+}
+input {
+  position: absolute;
+  z-index: 5;
+  right: 0px ;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  padding: 8px;
+  transform: translate(-50%,50%);
+}
+.container .display_total {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container .display_total hr {
+  border-top: 1px solid gray;
+}
+
+article {
+  position: relative;
+  background-color: white;
+  color: black;
+  vertical-align: middle;
+}
+
+iframe {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+}
+
+#count {
+  text-align: center;
+}
+
+#comment {
+  position: relative;
+  display: inline-block;
+  color: gray;
+  font-size: 18px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 35px;
+}
+
+.pic {
+  height: 20px;
+  width: 20px;
+  border-radius: 80%;
+}
+
+.display_comment {
+  display: none;
+  overflow: scroll;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: center;
+  border-top: 1px solid #DCDCDC;
+}
+
+.display_comment, .display_video {
+  height: 500px;
+}
+
+.date {
+  text-align: center;
+  color: #808080;
+}
+
+footer {
+  text-align: center;
+}
